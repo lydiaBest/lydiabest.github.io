@@ -167,9 +167,9 @@
           <strong>Short Audio About DATA</strong> 
           </h1>
           <br>
-          <audio class="article-broadcast" controls="" src="https://nudatainitiativee.files.wordpress.com/2020/11/data-forum-promo.mp3"></audio>
-          <div>
-            <a target="_blank" rel="noopener" href="https://damore-mckim.northeastern.edu/data-initiative/">Learn More</a>
+          <audio controls="" src="https://nudatainitiativee.files.wordpress.com/2020/11/data-forum-promo.mp3"></audio>
+          <div style="font-family: 'Times New Roman', Times, serif;">
+            For more information, click <a target="_blank" rel="noopener" href="https://open.spotify.com/show/7xuu3aTQhauIwh157nnzBn?si=8QkQT2dcRhmqCd69vIOyfw&nd=1"> here</a>.
           </div>
         </div>
       
@@ -457,6 +457,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>

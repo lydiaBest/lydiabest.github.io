@@ -226,6 +226,19 @@ body {
 .outer:after {
   clear: both;
 }
+.outer_team {
+  max-width: 1390px;
+  margin: 10px auto;
+  padding: 0 20px;
+}
+.outer_team:before,
+.outer_team:after {
+  content: "";
+  display: table;
+}
+.outer_team:after {
+  clear: both;
+}
 .inner {
   display: inline;
   float: left;
