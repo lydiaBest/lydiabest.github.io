@@ -452,6 +452,12 @@
    			<li><a href="mailto:contact@datanu.org" title="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
 
    		
+   			<li><a target="_blank" rel="noopener" href="https://www.google.com/maps?ie=UTF8&amp;hq&amp;ll=42.3394294,-71.088819&amp;z=19.77" title="map-marker"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a href="tel:8573277373" title="phone"><i class="fa fa-phone" aria-hidden="true"></i></a></li> 
+
+   		
    		</ul>
 
 
@@ -518,6 +524,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>

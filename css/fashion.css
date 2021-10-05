@@ -1125,7 +1125,8 @@ ul.widget-tab-nav {
 /* Widget Social Icons */
 .widget-social-icons li {
 	float: left;
-	margin: 5px 10px 5px 0;
+	padding: 14px;
+	margin: 5px 0 5px 0px;
 	text-align: center;
 	}
 .widget-social-icons li a {
