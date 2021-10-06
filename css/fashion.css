@@ -272,9 +272,10 @@ object {
 .site-description {
 	margin-bottom: 20px;
 	color: #a6a6a6;
-	font-weight: 300;
+	font-weight: 500;
 	font-family: Oswald, "Microsoft Yahei", Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
+	font-size: 0.5em;
+	/* text-transform: uppercase; */
 	letter-spacing: 2px;
 	}
 
@@ -450,14 +451,16 @@ object {
 	color: #a6a6a6;
 	}
 #main-navigation li a:hover,
-#main-navigation li.sfHover > a,
+#main-navigation li.sfHover > a {
+	color: rgb(14, 1, 51)
+	}
 #main-navigation li.current_page_item > a,
 #main-navigation li.current-menu-item > a,
 #main-navigation li.current-menu-parent > a,
 #main-navigation li.current-page-parent > a,
 #main-navigation li.current-page-ancestor > a,
 #main-navigation li.current_page_ancestor > a {
-	color: #1fa0ae;
+	color: #1fae4f;
 	}
 #main-navigation li:hover li a,
 #main-navigation li.sfHover li a {
@@ -569,7 +572,7 @@ object {
 
 .post-subtitle {
 	margin: 0 30px auto;
-	font-size: .75em;
+	font-size: 1.15em;
 	font-weight: 300;
 	font-family: Oswald,"Microsoft Yahei", Arial, Helvetica, sans-serif;
 }
@@ -922,7 +925,7 @@ body.search .page .entry-footer {
 	color: #a6a6a6;
 	font-size: .9em;
 	font-weight: 300;
-	font-family: Oswald, "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	}
@@ -1175,8 +1178,8 @@ ul.widget-tab-nav {
 	}
 
 .site-header-image {
-	max-height:800px; 
-	min-height:500px; 
+	max-height:600px; 
+	min-height:100px; 
 	overflow: hidden;
 	position: relative;
 }
@@ -1295,7 +1298,7 @@ ul.widget-tab-nav {
 		text-align: center;
 		}
 	.site-header-image > img {
-		height: 500px;
+		height: 200px;
 		width: auto;
 		min-width: 100%;
 		display: block;

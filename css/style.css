@@ -215,7 +215,7 @@ body {
 }
 .outer {
   max-width: 1140px;
-  margin: 10px auto;
+  margin: 5px auto;
   padding: 0 20px;
 }
 .outer:before,
@@ -228,7 +228,7 @@ body {
 }
 .outer_team {
   max-width: 1390px;
-  margin: 10px auto;
+  margin: 5px auto;
   padding: 0 20px;
 }
 .outer_team:before,
@@ -237,6 +237,19 @@ body {
   display: table;
 }
 .outer_team:after {
+  clear: both;
+}
+.outer_category {
+  max-width: 1290px;
+  margin: 5px auto;
+  padding: 0 20px;
+}
+.outer_category:before,
+.outer_category:after {
+  content: "";
+  display: table;
+}
+.outer_category:after {
   clear: both;
 }
 .inner {
@@ -515,6 +528,10 @@ a.article-title:hover {
   color: #1fa0ae;
   text-decoration: none;
 }
+.article-intro-bottom {
+  font-family: "Georgia";
+  font-size: 1.1em;
+}
 .article-entry {
   text-align: justify;
   color: #333;
@@ -532,7 +549,7 @@ a.article-title:hover {
 .article-entry table {
   line-height: 1.6em;
   margin: 1.6em 0;
-  font-family: "Times New Roman";
+  font-family: "Georgia";
   font-size: 1.1em;
 }
 .article-entry h1,
@@ -1048,6 +1065,7 @@ a.article-title:hover {
 }
 .archive-year {
   color: #333;
+  font-size: 1.25em;
 }
 .archive-year:before {
   font-family: "FontAwesome";
@@ -1141,10 +1159,12 @@ a.article-title:hover {
 }
 .archive-article-inner {
   padding: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed #333;
 }
 .archive-article-title {
-  font-size: 1.05em;
+  font-size: 1.25em;
   text-decoration: none;
   color: #333;
   -webkit-transition: color 0.2s;
@@ -1152,8 +1172,7 @@ a.article-title:hover {
   -ms-transition: color 0.2s;
   transition: color 0.2s;
   line-height: 1.6em;
-  border-left: 1px solid #333;
-  padding-left: 15px;
+  padding-left: 20px;
 }
 .archive-article-title:hover {
   color: #1fa0ae;
@@ -1166,10 +1185,10 @@ a.article-title:hover {
   float: left;
   color: #999;
   text-decoration: none;
-  line-height: 1.6em;
+  padding-left: 20px;
   margin-right: 15px;
   display: block;
-  font-size: 1.1em;
+  font-size: 0.8em;
   font-family: 'Helvetica Neue', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
 }
 .archive-article-date:hover {
@@ -1761,7 +1780,7 @@ pre .xml .cdata {
   text-transform: uppercase;
   line-height: 1.2;
   color: #222;
-  font-family: Oswald, "Microsoft Yahei", Arial, Helvetica, sans-serif;
+  font-family: "Georgia";
 }
 .widget_athemes_tabs .widget ul li a:hover {
   color: #1fa0ae;
