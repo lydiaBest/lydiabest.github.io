@@ -216,7 +216,7 @@ body {
 .outer {
   max-width: 1140px;
   margin: 5px auto;
-  padding: 0 20px;
+  padding: 30px 20px;
 }
 .outer:before,
 .outer:after {
@@ -229,7 +229,7 @@ body {
 .outer_team {
   max-width: 1390px;
   margin: 5px auto;
-  padding: 0 20px;
+  padding: 30px 20px;
 }
 .outer_team:before,
 .outer_team:after {
@@ -242,7 +242,7 @@ body {
 .outer_category {
   max-width: 1290px;
   margin: 5px auto;
-  padding: 0 20px;
+  padding: 30px 20px;
 }
 .outer_category:before,
 .outer_category:after {
@@ -1776,8 +1776,7 @@ pre .xml .cdata {
 }
 .widget_athemes_tabs .widget ul li a {
   margin: 0;
-  font-size: 1em;
-  text-transform: uppercase;
+  font-size: 1.2em;
   line-height: 1.2;
   color: #222;
   font-family: "Georgia";
