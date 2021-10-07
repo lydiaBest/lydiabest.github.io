@@ -216,7 +216,7 @@ body {
 .outer {
   max-width: 1140px;
   margin: 5px auto;
-  padding: 30px 20px;
+  padding: 5px 20px;
 }
 .outer:before,
 .outer:after {
@@ -229,7 +229,7 @@ body {
 .outer_team {
   max-width: 1390px;
   margin: 5px auto;
-  padding: 30px 20px;
+  padding: 5px 20px;
 }
 .outer_team:before,
 .outer_team:after {
@@ -242,7 +242,7 @@ body {
 .outer_category {
   max-width: 1290px;
   margin: 5px auto;
-  padding: 30px 20px;
+  padding: 5px 20px;
 }
 .outer_category:before,
 .outer_category:after {

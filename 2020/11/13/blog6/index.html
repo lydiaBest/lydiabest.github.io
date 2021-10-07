@@ -92,16 +92,10 @@
       <div class="site-branding">
           <h1 class="site-title">
             
-              <!-- <a href="" rel="home" > -->
-                <img style="margin-bottom: 10px;"  width="420px" height="112px" alt="Hike News" src=" /images/logo.png">
-                
-              <!-- </a> -->
-            
+              <a href="/" title="" rel="home">  </a>
             
           </h1>
           
-          
-            <div class="site-description">The Digital, Analytics, Technology and Automation Initiative is enabling a generation of intellectual leadership in the areas of digital convergence.</div>
           
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
@@ -131,7 +125,7 @@
 
 <div class="site-header-image">
   <!-- <img id="originBg" width="100%" alt="Hike News" src="https://source.unsplash.com/collection/954550/1920x1080"> -->
-  <img id="originBg" width="25%" height="30%" alt="Hike News" src="/images/234.gif" >
+  <img id="originBg" width="90%" alt="Hike News" src="/images/bg.png" >
 </div>
 
 
@@ -287,6 +281,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
