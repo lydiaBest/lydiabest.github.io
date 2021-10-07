@@ -337,6 +337,7 @@ object {
 	float: left;
 	position: relative;
 	visibility:	inherit;
+	left: 15%
 	}
 .sf-menu li a {
 	float: left;
@@ -373,7 +374,7 @@ object {
 	top: 40px;
 	background: #333;
 	border-left: none;
-	border-top: 1px dotted #565656;
+	/* border-top: 1px dotted #565656; */
 	}
 #top-navigation li li:hover ul,
 #top-navigation li li.sfHover ul {
@@ -1178,7 +1179,7 @@ ul.widget-tab-nav {
 	}
 
 .site-header-image {
-	max-height:600px; 
+	max-height:500px; 
 	min-height:100px; 
 	/* overflow: hidden; */
 	/* position: relative; */

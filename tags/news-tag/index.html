@@ -69,9 +69,9 @@
   <img id="originBg" width="90%" alt="Hike News" src="/images/bg.jpg" >
 </div>
 
-<div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+<!-- <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;"> -->
   <!-- <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src=""> -->
-</div>
+<!-- </div> -->
 <!-- 
 <script>
       var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
@@ -100,7 +100,7 @@
             <a class="nav-open">Menu</a>
             <a class="nav-close">Close</a>
 
-            <div class="clearfix sf-menu">
+            <div class="clearfix sf-menu" >
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
@@ -121,8 +121,9 @@
   </div>
 </header>
 
+  
+  
 
-  <script type="text/javascript" src="/js/tocontent.js" async=""></script>
   <div id="container">
     <!-- <div id="wrap" style="background: url(images/111.jpeg);"> -->
     <div id="wrap">
@@ -461,6 +462,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
