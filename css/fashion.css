@@ -412,8 +412,8 @@ object {
 	}
 
 #main-navigation {
-	border: solid #333;
-	border-width: 1px 0 3px;
+	/* border: solid #333;
+	border-width: 1px 0 3px; */
 	}
 #main-navigation li a {
 	padding: 0 20px;
@@ -1179,7 +1179,7 @@ ul.widget-tab-nav {
 	}
 
 .site-header-image {
-	max-height:500px; 
+	max-height:460px; 
 	min-height:100px; 
 	/* overflow: hidden; */
 	/* position: relative; */
