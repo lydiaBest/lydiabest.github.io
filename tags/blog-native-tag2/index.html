@@ -63,10 +63,9 @@
   <body>
 
 
-  
-<!-- <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;"> -->
-  <!-- <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src=""> -->
-<!-- </div> -->
+  <!-- <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+  <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+</div> -->
 <!-- 
 <script>
       var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
@@ -85,7 +84,7 @@
   <img id="originBg" draggable="false" width="100%" alt="Hike News" src="/images/bg.jpeg" >
 </div>
 
-<header id="allheader" class="site-header" role="banner" style="width: 100%;position: absolute;top:0;background: rgba(255,255,255);background-color: transparent;/* z-index: -1; */" >
+<header id="allheader" class="site-header" role="banner" style="width: 100%;position: absolute;top:0;background: rgba(255,255,255,0.1); background-color: transparent;/* z-index: -1; */" >
   <div class="clearfix container">
       <div class="site-branding">
           <h1 class="site-title">
@@ -607,6 +606,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
