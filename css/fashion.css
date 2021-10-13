@@ -253,6 +253,7 @@ object {
 ----------------------------------------------- */
 .site-header {
 	padding: 5px 0 20px;
+	z-index: 102;
 	}
 .site-branding {
 	float: left;
@@ -281,6 +282,10 @@ object {
 
 /* MENU
 ----------------------------------------------- */
+.sf-menu {
+
+	}
+
 .sf-menu ul:after {
 	content: ".";
 	display: block;
@@ -290,6 +295,7 @@ object {
 	}
 .sf-menu ul {
 	display: inline-block;
+	position: absolute;
 	}
 * html .sf-menu ul {
 	height: 1%;
@@ -414,24 +420,40 @@ object {
 #main-navigation {
 	/* border: solid #333;
 	border-width: 1px 0 3px; */
+	min-height: 5%;
+	min-width: 100%;
+	text-align: center;
+	margin-left: 30%;
+	position:fixed;
+	z-index: 103;
+	}
+
+#main-navigation-background {
+	/* border: solid #333;
+	border-width: 1px 0 3px; */
+	min-height: 5%;
+	min-width: 100%;
+	text-align: center;
 	margin-left: auto!important;
+	position:fixed;
+	z-index: 100;
+	background-color: #114058;
 	}
 #main-navigation li a {
 	padding: 0 20px;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	/* font-weight: bold; */
 	line-height: 50px;
 	letter-spacing: 1px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 #main-navigation .sf-menu > ul > li:after {
 	width: 6px;
-	float: left;
 	margin-top: 6px;
-	content: "/";
-	display: block;
+	/* content: "/"; */
 	color: #e6e6e6;
-	font-size: 1.6em;
+	font-size: 1.2em;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 #main-navigation .sf-menu > ul > li:last-child:after {
@@ -608,7 +630,7 @@ object {
     margin-left: 10px;
     font-family: Lora, sans-serif;
     color: #fff;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 20px;
     font-style: italic;
     font-weight: 400;
@@ -1025,10 +1047,11 @@ body.search .page .entry-footer {
 	padding: 10px 0 10px;
 	font-size: 1.2em;
 	font-weight: 400;
+	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	border-bottom: 2px solid #333;
+	border-bottom: 2px solid #fff;
 	}
 
 /* Make sure select elements fit in widgets */
@@ -1200,7 +1223,7 @@ ul.widget-tab-nav {
 	color: #fff;
 	font-size: 20px;
 	line-height: 40px;
-	background: #333;
+	background: rgb(0, 0, 0);
 	}
 .widget-social-icons li a:hover [class^="fa"]:before {
 	background: #1fa0ae;
@@ -1237,6 +1260,7 @@ ul.widget-tab-nav {
 	position: relative;
 	text-align: center;
 	margin: 0px 0px 5px 0;
+	z-index: 101;
 }
 
 .blur {	
