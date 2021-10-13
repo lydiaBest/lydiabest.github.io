@@ -282,10 +282,6 @@ object {
 
 /* MENU
 ----------------------------------------------- */
-.sf-menu {
-
-	}
-
 .sf-menu ul:after {
 	content: ".";
 	display: block;
@@ -420,7 +416,7 @@ object {
 #main-navigation {
 	/* border: solid #333;
 	border-width: 1px 0 3px; */
-	min-height: 5%;
+	min-height: 30px;
 	min-width: 100%;
 	text-align: center;
 	margin-left: 30%;
@@ -431,7 +427,7 @@ object {
 #main-navigation-background {
 	/* border: solid #333;
 	border-width: 1px 0 3px; */
-	min-height: 5%;
+	min-height: 50px;
 	min-width: 100%;
 	text-align: center;
 	margin-left: auto!important;
