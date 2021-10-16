@@ -1321,9 +1321,9 @@ ul.widget-tab-nav {
 /* FOOTER
 ----------------------------------------------- */
 .site-footer {
-	padding: 20px;
+	margin-top: 20px;
 	color: #a6a6a6;
-	font-size: .875em;
+	font-size: .775em;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1408,3 +1408,134 @@ ul.widget-tab-nav {
 	}
 @media screen and (max-width: 320px) {
 	}
+
+
+
+
+.chibao-card {
+	max-width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.chibao-row {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+}
+
+.chibao-column-left {
+	/* padding-right: 30px;
+	padding-left: 0px; */
+	width: 50%;
+	position: relative;
+	float: left;
+	min-height: 1px;
+	box-sizing: border-box;
+}
+
+.chibao-column-left2 {
+	padding-left: 30px;
+	padding-right: 0px;
+	width: 50%;
+	position: relative;
+	float: left;
+	min-height: 1px;
+	box-sizing: border-box;
+}
+
+
+.chibao-column-right {
+	padding-right: 0px;
+	padding-left: 30px;
+	width: 50%;
+	position: relative;
+	float: left;
+	min-height: 1px;
+	box-sizing: border-box;
+}
+
+.chibao-column-right2 {
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 50%;
+	position: relative;
+	float: left;
+	min-height: 1px;
+	box-sizing: border-box;
+}
+
+.chibao-title {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	float: none;
+	/* 这个是 字体 */
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #181818;
+	font-size: 40px;
+	line-height: 78px;
+	text-align: left;
+}
+
+.chibao-paragraph {
+	width: auto;
+	margin-bottom: 30px;
+	float: none;
+	/* 这个是 字体 */
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #2d2d2d;
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: 500;
+}
+
+.chibao-link {
+	display: inline;
+	margin-top: 60px;
+	padding-top: 0px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #2d2d2d;
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.chibao-image {
+	width: auto;
+	height: 400px;
+	max-width: 100%;
+	box-shadow: 11px 11px 0px 0px #d4af37;
+	object-fit: cover;
+	object-position: 50% 50%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.chibao-33 {
+	-webkit-transition: border-width 250ms ease;
+	transition: border-width 250ms ease;
+}
+
+.chibao-31 {
+	color: #d4af37;
+	font-size: 28px;
+}
+
+.chibao-row-between {
+	flex-direction: row!important;
+	margin-right: -16px!important;
+	justify-content: space-between!important;
+	align-items: center!important;
+	display: flex!important;
+}
+
+.chibao-footer-ul {
+	position: absolute;
+}
+
+.chibao-footer-li {
+	float: left;
+}

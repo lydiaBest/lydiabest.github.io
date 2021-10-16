@@ -550,12 +550,10 @@ a.article-title:hover {
   line-height: 1.6em;
   margin: 1.6em 0;
   font-family: "Georgia";
-  font-size: 1.1em;
+  font-size: 15px;
 }
 .article-entry h1,
 .article-entry h2,
-.article-entry h3,
-.article-entry h4,
 .article-entry h5,
 .article-entry h6 {
   font-weight: bold;
@@ -568,6 +566,18 @@ a.article-title:hover {
 .article-entry h6 {
   line-height: 1.1em;
   margin: 1.1em 0;
+}
+.article-entry h1 {
+  font-size: 50px;
+}
+.article-entry h2 {
+  font-size: 40px;
+}
+.article-entry h3 {
+  font-size: 40px;
+}
+.article-entry h4 {
+  font-size: 25px;
 }
 .article-entry a {
   color: color-link;

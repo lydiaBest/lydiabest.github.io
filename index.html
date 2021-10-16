@@ -62,6 +62,9 @@
   <body>
 
 
+
+
+<!-- 这个是导航栏 -->
 <div id="main-navigation-background" class="main-navigation-background"></div>
 <nav id="main-navigation" class="main-navigation" role="navigation">
   <a class="nav-open">Menu</a>
@@ -83,6 +86,7 @@
   </div>
 </nav>
 
+<!-- 这个是头部的图 -->
   <!-- <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
   <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
 </div> -->
@@ -134,7 +138,60 @@
   <div id="container">
     <!-- <div id="wrap" style="background: url(images/111.jpeg);"> -->
     <div id="wrap">
-
+      
+      
+        <!-- 在这里新增一个页面卡片，引入index-card这个模块 -->
+        <!-- 每一个元素的class后面的都是css样式所指向的元素属性，这些元素属性需要我们自己来编写 -->
+<!-- 就是这个文件，咱们相当于一个模块元素，咱们现在先把这个元素放进去，先不管样式 -->
+<div class="chibao-card">
+	<div class="chibao-row">
+		<div class="chibao-column-left">
+			<h2 class="chibao-title">
+				2021 Year In Review
+			</h2>
+			<p class="chibao-paragraph">
+				The DATA Initiative has had an  
+				<span class="text-span-57">
+					<strong>
+						incredible year
+					</strong>
+				</span>
+				connecting organizations, faculty, and students. Its first year featured a range of activities that reached 
+				<span class="text-span-58">
+					<strong>
+						hundreds of members
+					</strong>
+				</span>
+				including the annual forum, machine learning workshops, and three new analytics programs. With a growing network of affiliated researchers across all colleges, rising student engagement and deepening collaborations with Northeastern partner organizations, the DATA Initiative is poised for . 
+				<span class="text-span-59">
+					<strong>
+						an outstanding 2021
+					</strong>
+				</span>
+				.
+				<br>
+				<br>
+			</p>
+			<a target="_blank" rel="noopener" href="https://damore-mckim.northeastern.edu/wp-content/uploads/2021/04/2020-DATA-Initiative-Annual-Report.pdf" class="chibao-link">
+				<span class="chibao-33">
+					Learn More
+				</span>
+				<span class="chibao-31">
+					»
+				</span>
+			</a>
+		</div>
+		<div class="chibao-column-right">
+			<img src="/images/1.jpeg"
+			loading="lazy" sizes="(max-width: 767px) 94vw, 47vw"
+			alt="Room packed with women sitting at tables and listening to a presentation."
+			class="chibao-image">
+		</div>
+	</div>
+</div>
+      
+      
+      <!-- 下面的是页面内容 -->
       
 
         
@@ -148,6 +205,11 @@
   
     
       
+<hr class="entry-footer-hr">
+<hr class="entry-footer-hr">
+
+
+
   <div>
     <article id="post-hello-world" 
       class="article article-type-post" itemscope itemprop="blogPost" >
@@ -177,19 +239,42 @@
       </div>
     
       
-        <div>
-          <h1 class="thumb" class="article-title" itemprop="name">
-          <strong>Short Audio About DATA</strong> 
-          </h1>
-          <br>
-          <div class="article-intro-bottom">
-            The DATA Initiative’s Executive Director Kwong Chan introduces listeners to the growing organization and its many branches to drive student, faculty, and company involvement.
-          </div>
-          <audio class="article-broadcast" controls="" src="https://nudatainitiativee.files.wordpress.com/2020/11/data-forum-promo.mp3"></audio>
-          <div class="article-intro-bottom">
-            For more DATA INITIATIVE’s audio interviews, go to our <a target="_blank" rel="noopener" href="https://open.spotify.com/show/7xuu3aTQhauIwh157nnzBn?si=8QkQT2dcRhmqCd69vIOyfw&nd=1">Sportfy</a>
-          </div>
-        </div>
+        <div class="chibao-card">
+	<div class="chibao-row">
+		<div class="chibao-column-right2">
+			<img src="/images/2.png"
+			alt="Room packed with women sitting at tables and listening to a presentation."
+			class="chibao-image">
+		</div>
+
+		<div class="chibao-column-left2">
+			<h2 class="chibao-title">
+				Short Audio
+			</h2>
+			<p class="chibao-paragraph">
+				The DATA Initiative’s  
+				<span class="text-span-57">
+					<strong>
+						Executive Director Kwong Chan
+					</strong>
+				</span>
+				introduces listeners to the growing organization and its many branches to drive student, faculty, and company involvement.
+				<br>
+				For more DATA INITIATIVE’s audio interviews, go to our <a target="_blank" rel="noopener" href="https://open.spotify.com/show/7xuu3aTQhauIwh157nnzBn?si=8QkQT2dcRhmqCd69vIOyfw&nd=1">Sportfy</a>
+			</p>
+			<audio class="article-broadcast" controls="" src="https://nudatainitiativee.files.wordpress.com/2020/11/data-forum-promo.mp3"></audio>
+			<a target="_blank" rel="noopener" href="https://open.spotify.com/show/7xuu3aTQhauIwh157nnzBn?si=8QkQT2dcRhmqCd69vIOyfw&nd=1" class="chibao-link">
+				<span class="chibao-33">
+					Learn More
+				</span>
+				<span class="chibao-31">
+					»
+				</span>
+			</a>
+		</div>
+
+	</div>
+</div>
       
     
       <!--  -->
@@ -251,22 +336,30 @@
     <footer id="footer" class="site-footer">
 
   <div class="clearfix container">
+
+
+      <div class="chibao-row-between">
+          <a class="chibao-footer-li" href="/">Home</a>
+          <a class="chibao-footer-li" href="/about">About</a>
+          <a class="chibao-footer-li" href="/forum">Data Forum</a>
+          <a class="chibao-footer-li" href="/categories/blog">Blog</a>
+          <a class="chibao-footer-li" href="/team">Team</a>
+        <ul class="clearfix widget-social-icons">   
+          
+              <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/nudatainitiative" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> 
+            
+              <li><a target="_blank" rel="noopener" href="https://www.facebook.com/nudatainitiative/" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+            
+              <li><a href="mailto:contact@datanu.org" title="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
+            
+              <li><a target="_blank" rel="noopener" href="https://www.google.com/maps?ie=UTF8&amp;hq&amp;ll=42.3394294,-71.088819&amp;z=19.77" title="map-marker"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li> 
+            
+              <li><a href="tel:8573277373" title="phone"><i class="fa fa-phone" aria-hidden="true"></i></a></li> 
+            
+            </ul>
+      </div>
       <div class="site-info">
 	      &copy; 2021 Lydia All Rights Reserved.
-        <br>
-        <ul class="clearfix widget-social-icons">   
-        
-            <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/nudatainitiative" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> 
-          
-            <li><a target="_blank" rel="noopener" href="https://www.facebook.com/nudatainitiative/" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-          
-            <li><a href="mailto:contact@datanu.org" title="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
-          
-            <li><a target="_blank" rel="noopener" href="https://www.google.com/maps?ie=UTF8&amp;hq&amp;ll=42.3394294,-71.088819&amp;z=19.77" title="map-marker"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li> 
-          
-            <li><a href="tel:8573277373" title="phone"><i class="fa fa-phone" aria-hidden="true"></i></a></li> 
-          
-          </ul>
       </div>
       
   </div>
@@ -282,10 +375,6 @@
 
     wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
     contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-
-
-    <!-- headerblur min height -->
-    
     
 </script>
     
