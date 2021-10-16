@@ -1321,7 +1321,7 @@ ul.widget-tab-nav {
 /* FOOTER
 ----------------------------------------------- */
 .site-footer {
-	margin-top: 20px;
+	margin-top: 50px;
 	color: #a6a6a6;
 	font-size: .775em;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -1418,6 +1418,14 @@ ul.widget-tab-nav {
 	margin-left: auto;
 	margin-top: 10px;
 	margin-bottom: 20px;
+}
+
+.chibao-card-audio {
+	max-width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
 .chibao-row {
