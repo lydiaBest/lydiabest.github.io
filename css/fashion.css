@@ -633,7 +633,7 @@ object {
 }
 
 .text-span-4 {
-	color: #d4af37
+	color: #70ae1f
 }
 
 .italic-text {
@@ -1507,7 +1507,7 @@ ul.widget-tab-nav {
 	width: auto;
 	height: 400px;
 	max-width: 100%;
-	box-shadow: 11px 11px 0px 0px #d4af37;
+	box-shadow: 11px 11px 0px 0px #70ae1f;
 	object-fit: cover;
 	object-position: 50% 50%;
 	vertical-align: middle;
@@ -1520,7 +1520,7 @@ ul.widget-tab-nav {
 }
 
 .chibao-31 {
-	color: #d4af37;
+	color: #70ae1f;
 	font-size: 28px;
 }
 
