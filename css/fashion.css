@@ -1522,6 +1522,17 @@ ul.widget-tab-nav {
 	display: inline-block;
 }
 
+.chibao-image2 {
+	width: 500px;
+	height: 400px;
+	box-shadow: 0px 0px 0px 0px #1fa0ae;
+	object-fit: cover;
+	object-position: 50% 50%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+
 .chibao-33 {
 	-webkit-transition: border-width 250ms ease;
 	transition: border-width 250ms ease;
