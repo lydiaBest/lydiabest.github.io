@@ -1,3 +1,3 @@
 $("html, body").animate({
-    scrollTop: 600
+    scrollTop: 400
 }, 1000);

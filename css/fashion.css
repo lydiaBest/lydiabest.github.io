@@ -1534,6 +1534,7 @@ ul.widget-tab-nav {
 .chibao-image2 {
 	width: 500px;
 	height: 400px;
+	box-shadow: 8px 8px 0px 0px #1fa0ae;
 	object-fit: cover;
 	object-position: 50% 50%;
 	vertical-align: middle;
