@@ -1722,7 +1722,7 @@ pre .xml .cdata {
   color: #fff;
 }
 #sidebar {
-  background: rgba(243,245,249,0.6);
+  background: rgba(243,245,249,0.3);
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 9px;

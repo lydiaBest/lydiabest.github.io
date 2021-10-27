@@ -1074,7 +1074,8 @@ body.search .page .entry-footer {
 	color: #ba2500;
 	}
 .widget-tab-nav {
-	border-bottom: 2px solid #333;
+	border-bottom: 2px solid rgba(20, 20, 20, 0.6);
+	
 }
 .tagcloud
     margin-bottom: 10px
@@ -1082,7 +1083,7 @@ body.search .page .entry-footer {
 /* Widget Tabs */
 ul.widget-tab-nav {
 	margin: 0 0 15px;
-	border-bottom: 3px solid #333;
+	border-bottom: 3px solid rgba(20, 20, 20, 0.6);
 	*zoom: 1;
 	}
 .widget-tab-nav li {
@@ -1107,12 +1108,12 @@ ul.widget-tab-nav {
 	}
 .widget-tab-nav li a:hover,
 .widget-tab-nav li a:focus {
-	color: #333;
+	color: rgba(20, 20, 20, 0.6);
 	text-decoration: none;
 	}
 .widget-tab-nav li.active a {
 	color: #fff;
-	background: #333;
+	background: rgba(20, 20, 20, 0.6);
 	}
 .widget-tab-content .tab-pane {
 	display: none;
