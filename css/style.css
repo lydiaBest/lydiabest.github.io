@@ -622,7 +622,7 @@ a.article-title:hover {
   font-size: 1.1em;
   margin: 1.4em 0px;
   border-left: 0;
-  background: rgba(243,245,249,0.7);
+  background: #e6dfc5;
   border-radius: 5px;
 }
 .article-entry blockquote:before {
@@ -686,9 +686,10 @@ a.article-title:hover {
   margin-left: 1em;
 }
 .article-entry .caption {
-  color: #999;
+  color: #333;
   display: block;
-  font-size: 0.9em;
+  font-size: 1.1em;
+  font-weight: bold;
   margin-top: 0.5em;
   position: relative;
   text-align: center;
@@ -1722,7 +1723,7 @@ pre .xml .cdata {
   color: #fff;
 }
 #sidebar {
-  background: rgba(243,245,249,0.3);
+  background: rgba(243,245,249,0);
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 9px;
