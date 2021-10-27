@@ -622,7 +622,8 @@ a.article-title:hover {
   font-size: 1.1em;
   margin: 1.4em 0px;
   border-left: 0;
-  background: #f3f5f9;
+  background: rgba(243,245,249,0.7);
+  border-radius: 5px;
 }
 .article-entry blockquote:before {
   float: left;
@@ -1721,7 +1722,7 @@ pre .xml .cdata {
   color: #fff;
 }
 #sidebar {
-  background: rgba(255,255,255,0.7);
+  background: rgba(243,245,249,0.6);
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 9px;
