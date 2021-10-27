@@ -1721,8 +1721,10 @@ pre .xml .cdata {
   color: #fff;
 }
 #sidebar {
-  background: #fcfcfc;
-  padding-left: 2px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 9px;
 }
 @media screen and (min-width: 768px) {
   #sidebar {
