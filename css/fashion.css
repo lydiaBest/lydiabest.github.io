@@ -55,7 +55,7 @@ h6 {
 
 /* Links */
 a {
-	color: #1fa0ae;
+	color: #ba2500;
 	outline: none;
 	-webkit-transition: all 0.14s ease 0s; 
 	   -moz-transition: all 0.14s ease 0s; 
@@ -633,7 +633,7 @@ object {
 }
 
 .text-span-4 {
-	color: #1fa0ae
+	color: #ba2500
 }
 
 .italic-text {
@@ -686,7 +686,7 @@ object {
 	text-decoration: none;
 	}
 .entry-title a:hover {
-	color: #1fa0ae;
+	color: #ba2500;
 	}
 .entry-meta {
 	color: #a6a6a6;
@@ -895,7 +895,7 @@ body.search .page .entry-footer {
 	border: none;
 	}
 .site-content .post-navigation a:hover {
-	color: #1fa0ae;
+	color: #ba2500;
 	background: none;
 	border: none;
 	}
@@ -972,7 +972,7 @@ body.search .page .entry-footer {
 	text-decoration: none;
 	}
 .comment-list li.comment .comment-author .fn a:hover {
-	color: #1fa0ae;
+	color: #ba2500;
 	}
 .comment-list li.comment .comment-metadata {
 	margin: 0 0 3px;
@@ -1071,7 +1071,7 @@ body.search .page .entry-footer {
 	color: #333;
 	}
 .widget li a:hover {
-	color: #1fa0ae;
+	color: #ba2500;
 	}
 .widget-tab-nav {
 	border-bottom: 2px solid #333;
@@ -1222,7 +1222,7 @@ ul.widget-tab-nav {
 	background: rgb(0, 0, 0);
 	}
 .widget-social-icons li a:hover [class^="fa"]:before {
-	background: #1fa0ae;
+	background: #ba2500;
 	}
 
 /* Widget Flickr */
@@ -1315,7 +1315,7 @@ ul.widget-tab-nav {
 	background: none;
 	}
 .site-extra .widget-social-icons li a:hover [class^="ico-"]:before {
-	color: #1fa0ae;
+	color: #ba2500;
 	}
 
 /* FOOTER
@@ -1334,7 +1334,7 @@ ul.widget-tab-nav {
 	text-decoration: none;
 	}
 .site-footer a:hover {
-	color: #1fa0ae;
+	color: #ba2500;
 	}
 .site-info {
 	float: left;
@@ -1524,7 +1524,7 @@ ul.widget-tab-nav {
 	width: auto;
 	height: 400px;
 	max-width: 100%;
-	box-shadow: 11px 11px 0px 0px #1fa0ae;
+	box-shadow: 11px 11px 0px 0px #ba2500;
 	object-fit: cover;
 	object-position: 50% 50%;
 	vertical-align: middle;
@@ -1534,7 +1534,7 @@ ul.widget-tab-nav {
 .chibao-image2 {
 	width: 500px;
 	height: 400px;
-	box-shadow: 8px 8px 0px 0px #1fa0ae;
+	box-shadow: 8px 8px 0px 0px #ba2500;
 	object-fit: cover;
 	object-position: 50% 50%;
 	vertical-align: middle;
@@ -1548,7 +1548,7 @@ ul.widget-tab-nav {
 }
 
 .chibao-31 {
-	color: #1fa0ae;
+	color: #ba2500;
 	font-size: 28px;
 }
 
